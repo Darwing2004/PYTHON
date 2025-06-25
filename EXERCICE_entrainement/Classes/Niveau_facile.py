@@ -1,10 +1,11 @@
 class Person:
-    name = ""
+    def __init__(self, name):
+        self.name = name
 
     def say_hello():
-        print(f"Hello, my name is {name}")
+        print(f"Hello, my name is {self.name}")
 
 
-Person.name = "Darwing"
+Darwing = Person("Darwing")
 
 Person.say_hello()
